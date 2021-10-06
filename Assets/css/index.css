@@ -1,0 +1,780 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+.header>div{
+    
+    display: inline-block;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.canvas{
+    font-size: 20px;
+    width: 12%;
+    justify-content: center;
+    line-height: 100px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    font-family: 'Comfortaa', cursive;
+}
+
+.mainmenu{
+    width: 76%;
+    text-align: right;
+}
+ul li{
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 2%;
+    font-family: 'Comfortaa', cursive;
+    transition: 0.3s;
+
+}
+ul li:hover{
+    color: #44aaac;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ul{
+    width: 100%;
+    margin-right: 2%;
+}
+.sign{
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px;
+    width: 11%;
+    justify-content: center;
+    line-height: 100px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.sign:hover{
+    cursor: pointer;    
+    background-color: #44aaac;
+    transition: 0.3s;
+    color: white;
+}
+#hosting{
+    width: 18px;
+    outline: none;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+    color: #44aaac;
+    transition: 1s;
+
+}
+#hosting:hover{
+    color: white;
+    background-color: #44aaac;
+    transition: 1s;
+    border-radius: 5px;
+}
+.bgimgclr{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 184, 148,0.7);
+}
+.bgimg{
+    background-image:url(../../Assets/img/map-light.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px; 
+    opacity: .2;
+}
+.hisse1{
+    position: relative;
+}
+.img1 img{
+    margin-top: 10%;
+    width: 30%;
+    margin-left: 5%;
+}
+.text{
+    margin-left: 10%;
+    margin-top: 12%;
+    float: left;
+    color: white;
+    width: 40%;
+    font-family: 'Comfortaa', cursive;
+}
+.text h1{
+    font-size: 50px;
+}
+
+.text p{
+    margin-top: 3%;
+margin-right: 25%;
+}
+.hisse2{
+    margin-top: 10%;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+}
+.text h3{
+    display: inline-block;
+    margin-top: 9%;
+    color: rgb(77, 167, 169);
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    transition: 0.5s;
+}
+.text h3:hover{
+    background-color: #f9ca24;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+.features{
+    position: absolute;
+    width: 70%;
+    height: 190px;
+    background-color: white;
+    margin-left: 15%;
+    margin-top: -6%;
+    box-shadow: 0 3px 10px #8395a7;
+    border-radius: 5px;
+}
+.features>div{
+    display: inline-block;
+    width: 30%;
+}
+
+.featureslist li{
+    padding-top: 10%;
+    margin-left: 10%;
+}
+.yazilar h2{
+    margin-bottom: 5%;
+    margin-left: 10%;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+}
+.yazilar p{
+    font-size: 15px;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    font-family: 'Comfortaa', cursive;
+}
+.bashliq2{
+    text-align: center;
+    margin-top: 13%;
+    font-family: 'Comfortaa', cursive;
+}
+.paragraf{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1%;
+    margin: 0 25%;
+    font-family: 'Comfortaa', cursive;
+    opacity: 0.7;
+}
+.services>div{
+    margin-top: 2%;
+    margin-left: 6%;
+    display: inline-block;
+    width: 25%;
+    transition: 1s;
+    padding-bottom: 1%;
+
+}
+.services{
+    margin-bottom: 4%;
+}
+.services>div:hover{
+    box-shadow: 0 0 10px rgba(44, 62, 80, 0.5);
+    transition: 1s;
+    border-radius: 3px;
+    cursor: pointer;
+    padding-right: 2%;
+}
+.services img{
+    float: left;
+    width: 12%;
+    padding: 5%;
+    padding-bottom: 16%;
+}
+.services h3{
+    margin-top: 6%;
+    font-family: 'Comfortaa', cursive;
+}
+.services p{
+    margin-top: 2%;
+    font-family: 'Comfortaa', cursive;
+    opacity: .7;
+}
+
+.domainname{
+    margin-top: 58%;
+    width: 100%;
+    position: absolute;
+    height: 200px;
+    background-color: #34495e;
+}
+.domainname>div{
+    float: left;
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+.domainname p{
+    padding-top: 2%;
+    opacity: 0.8;
+}
+.domaininput{
+padding-top: 1%;
+}
+
+.ad{
+    display: inline-block;
+    width: 70%;
+    height: 40px;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    background-color: teal;
+}
+.hisse3{
+    margin-top: 71%;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    position: absolute;
+}
+.yazilar2{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;  
+    margin: 5% 25% 0;
+    line-height: 35px;
+}
+.yazilar2 h1{
+    font-size: 30px;
+}
+
+.map2{
+    float: left;
+    width: 60%;
+}
+.map2 img{
+    margin-top: 10%;
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.countries{
+    margin-top: 6%;
+    width: 33%;
+    margin-left: 7%;
+    font-family: 'Comfortaa', cursive;
+    float: left;
+}
+.countries h5{
+    line-height: 40px;
+    color:teal;
+}
+.olkeler>div{
+    margin-top: 10%;
+    width: 45%;
+    font-family: 'Comfortaa', cursive;
+    display: inline-block;
+}
+.olkeler p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.olkeler img{
+    width: 9%;
+}
+
+.olkeler2{
+    margin-left: 9%;
+}
+
+.hisse4{
+    width: 100%;
+    height: 1300px;
+    background-color: #ecf0f1;
+    position: absolute;
+    margin-top: 117%;
+}
+.yazilar3{
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 5% 25% 0;
+}
+.range{
+    width: 35%;
+    height: 400px;
+    float: left;
+}
+
+.qiymet{
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+.umumiqiymet{
+    height: 400px;
+    width: 25%;
+    float: left;
+    margin-top: 15px;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #bdc3c7;
+}
+.plan{
+    line-height: 70px;
+}
+.umumiqiymet h1{
+    font-size: 60px;
+}
+
+
+.shop{
+    margin-left: 6%;
+    margin-top: 3%;
+}
+.shop>div{
+    margin-left: 3%;
+    
+}
+.range input{
+    width: 85%;
+    margin-top: 8%;
+    margin-left: 7%;
+    margin-bottom: 3%;
+}
+.range div:hover{
+    margin-left: -20px;
+    margin-right: -20px;
+    transition: 0.5s;
+}
+.range{
+    transition: 0.5s;
+}
+.range h3{
+    margin-left: 7%;
+
+}
+.range>div{
+    padding-top: 5%;
+    margin-top: 4%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #bdc3c7;
+    font-family: 'Comfortaa', cursive;
+    transition: 0.5s;
+}
+.slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 100%; 
+    height: 15px; 
+    background: #d3d3d3; 
+    outline: none; 
+    opacity: 0.7; 
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 10px;
+  }
+
+  .slider:hover {
+    opacity: 1; 
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px; 
+    height: 15px; 
+    background: #44aaac; 
+    cursor: pointer; 
+    border-radius: 100%;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; 
+    height: 25px; 
+    background: #4CAF50;
+    cursor: pointer; 
+  }
+  .qiymet>div{
+      line-height: 40px;
+      color: white;
+      text-align: center;
+      height: 100px;
+    padding-top: 5%;
+    margin-top: 8%;
+    background-color: #44aaac;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #bdc3c7;
+    font-family: 'Comfortaa', cursive;
+  }
+  .umumiqiymet>div{
+      text-align: center;
+      height: 200px;
+      background-color: white;
+  }
+.plan{
+      border-bottom: 1px solid #ecf0f1;
+  }
+.umumiqiymet div p:first-child{
+    opacity: 0.7;
+    float: left;
+    margin-left: 25%;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.ordernow{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #44aaac;
+    transition: 0.7s;
+}
+.ordernow:hover{
+    background-color: black;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.includes>div{
+    width: 19%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    line-height: 40px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.includes ul li{
+    font-weight: 100;
+}
+.includes ul li:hover{
+   color: #5f27cd;
+}
+.includes i{
+    opacity: 0.5;
+}
+
+.includes h4{
+    color: #44aaac;
+}
+.hisse5{
+    position: absolute;
+    margin-top: 200%;
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+.otherservice{
+    font-family: 'Comfortaa', cursive;
+    line-height: 40px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.otherservice p{
+    opacity: 0.6;
+}
+
+.services2{
+    margin-left: 8%;
+    margin-top: 1%;
+}
+.services2>div{
+    width: 40%;
+    height: 300px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: white;
+    box-shadow: 0 0 5px #8395a7;
+    border-radius: 10px;
+}
+
+.content img{
+    width: 8%;
+    margin-top: 10%;
+}
+.content{
+    margin: 0 10%;
+    font-family: 'Comfortaa', cursive;
+}
+.content h3{
+    line-height: 50px;
+}
+.content p:last-child{
+    line-height: 50px;
+    color: #44aaac;
+}
+.content p:nth-child(3){
+    font-weight: bold;
+    opacity: 0.7;
+}
+.hisse6{
+    position: absolute;
+    margin-top: 260%;
+    width: 100%;
+    height: 600px;
+    background-color: #f1f2f6;
+}
+.basliq6{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Comfortaa', cursive;
+    line-height: 40px;
+}
+.basliq6 h4{
+    opacity: 0.4;
+}
+.statlar>div{
+    width: 30%;
+    height: 300px;
+    margin-left: 3%;
+    margin-top: 3%;
+    float: left;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive; 
+}
+.statlar img{
+    margin-top: 6%;
+    width: 20%;
+    border-radius: 100%;
+    border: 1px solid white;
+    box-shadow: 0 0 4px black;
+}
+.statlar i{
+    color: #44aaac;
+    line-height: 45px;
+}
+.statlar h3{
+    line-height: 45px;
+}
+.hisse7{
+    position: absolute;
+    margin-top: 299%;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.bashliq7{
+    text-align: center;
+    font-family: 'Comfortaa', cursive; 
+    margin: 5% 25%;
+}
+.bashliq7 h4{
+    opacity: 0.4;}
+.bashliq7 h1{
+    font-size: 35px;
+    line-height: 70px;
+}
+.bashliq7 p{
+    font-size: 20px;
+    opacity: 0.9;
+}
+.logolar{
+    margin-left: 15%;
+    margin-top: -4%;
+}
+.logolar>div{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.logolar img{
+    width: 50%;
+    margin-top: 4%;
+}
+.hisse8{
+    position: absolute;
+    margin-top: 344%;
+    width: 100%;
+    height: 220px;
+    background-color: #44aaac; 
+    font-family: 'Comfortaa', cursive; 
+    text-align: center;
+}
+.hisse8 h1{
+    display: inline-block;
+    margin-top: 2%;
+    color: white;
+    line-height: 90px;
+    font-size: 35px;
+}
+.hisse8 h2{
+    display: inline-block;
+    color: #44aaac;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.hisse8 h2:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    margin-top: 358%;
+    background-color: #282828;
+    position: absolute;
+    height: 500px;
+    border-top: 10px solid #636e72;
+}
+.footer>div{
+    margin-left: 7%;
+    float: left;
+    font-family: 'Comfortaa', cursive; 
+    width: 18%;
+    color: white;
+    margin-top: 7%;
+    line-height: 25px;
+}
+.footer h3{
+    color: #a55eea;
+}
+.footer ul{
+    display: flex;
+    width: 52%;
+    line-height: 35px;
+    flex-direction: column;
+}
+.footer ul li{
+    font-weight: 500;
+
+}
+.social ul{
+    width: 43%;
+    line-height: 35px;
+}
+.footer ul li i{
+    padding-right: 15px;
+}
+.support{
+    /* margin-right: 5%; */
+    width: 10%;
+}
+
+.forphone{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(148, 4, 1, 1) 0%, rgba(237, 134, 38, 1) 100%);
+    display: flex;
+    justify-content: center;
+    z-index: -1000;
+    opacity: 0;
+}
+
+.forphone h1{
+    margin-top: 20%;
+    font-size: 35px;
+    font-family: Comfortaa , sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.forphone p{
+    margin-top: 10px;
+    font-family: Comfortaa , sans-serif;
+    color: white;
+    text-align: center;
+    opacity: .7;
+}
+
+.forphone p:nth-child(3){
+    margin-top: 10%;
+    font-size: 13px;
+    opacity: 1;
+    color: #dcdde1;
+}
+
+
+.forphonesingle{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(148, 4, 1, 1) 0%, rgba(237, 134, 38, 1) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.forphonesingle h1{
+    margin-top: 20%;
+    font-size: 35px;
+    font-family: Comfortaa , sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.forphonesingle p{
+    margin-top: 10px;
+    font-family: Comfortaa , sans-serif;
+    color: white;
+    text-align: center;
+    opacity: .7;
+}
+
+.forphonesingle p:nth-child(3){
+    margin-top: 10%;
+    font-size: 13px;
+    opacity: 1;
+    color: #dcdde1;
+}
+
+@media only screen and (max-width: 1000px) {
+    header, main, footer{
+        display: none;
+    }
+    .forphone{
+        z-index: 1000;
+        opacity: 1;
+    }
+    .forphone h1{
+        margin-top: 60%;
+        padding: 0 3%;
+    }
+
+    .forphonesingle{
+        z-index: 1000;
+        opacity: 1;
+    }
+    .forphonesingle h1{
+        margin-top: 60%;
+        padding: 0 3%;
+    }
+  }
+
